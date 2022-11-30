@@ -1,0 +1,46 @@
+body{
+    background-image:url( "SashaBG.jpg");
+}
+h1{
+    color: azure;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+}
+.menu{
+    background-color:  rgba(0, 0, 0, 0.541) ;
+    text-align: center;
+    line-height: 40px;
+
+}
+.menu a:hover{
+    background-color:indigo ;
+}
+.menu a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;;
+}
+h2{
+    text-align: center;
+    font-size: 60px;
+    color: aliceblue;
+    font-family: 'Permanent Marker', cursive;
+    text-shadow: 0 0 10px black;
+
+}
+.banner p{
+    font-family:'Roboto', sans-serif;
+    background-image: linear-gradient(to right,transparent,rgba(0, 0, 0, 0.63));
+color: azure;
+width: 60%;
+display: inline-block;
+padding: 20px;
+border-radius: 10px;
+
+}
+.banner{
+    text-align:right ;
+
+}
