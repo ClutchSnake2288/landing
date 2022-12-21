@@ -1,5 +1,6 @@
 body{
     background-image:url( "SashaBG.jpg");
+    background-size: cover;
 }
 h1{
     color: azure;
@@ -28,6 +29,7 @@ h2{
     color: aliceblue;
     font-family: 'Permanent Marker', cursive;
     text-shadow: 0 0 10px black;
+    padding-top: 200px;
 
 }
 .banner p{
@@ -42,5 +44,50 @@ border-radius: 10px;
 }
 .banner{
     text-align:right ;
+background-image:url("ppp.jpg");
+overflow: hidden;
+background-size: cover;
+}
 
+.banner a{
+    color: rgba(255, 255, 255, 0.822);
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.219);
+    text-align: center;
+    line-height: 50px;
+    display: inline-block;
+    padding: 0 70px;
+    border:2px solid white;
+    border-radius: 12px;
+    font-family:'Roboto', sans-serif ;
+}
+.papik{
+    text-align: center;
+ margin-bottom:200px ;
+    
+}
+.title{
+    padding-top: 50px;
+
+}
+.info{
+    background-color: rgba(254, 254, 255, 0);
+    width: 40%;
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+    text-align: left;
+    margin-right: 20px;
+}
+h4{
+    text-align: center;
+}
+img{
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.603) ;
+    width: 40%;
+    vertical-align: middle;
+}
+.aboutUs{
+    text-align: center;
 }
