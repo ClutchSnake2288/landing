@@ -94,10 +94,164 @@ img{
 }
 .country:nth-of-type(1){
     background-image:url("rio.jpg") ;
+    
 }
 .country:nth-of-type(2){
     background-image: url("abudabi.jfif");
 }
 .country:nth-of-type(3){
     background-image: url("barcelona.jpg");
+}
+.country a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.781);
+    margin: 30px;
+    background-color: white;
+    border-radius: 15px;
+display: inline-block;
+font-family:'Roboto', sans-serif ;
+padding-left: 20px;
+padding-right: 20px;
+line-height:40px ;
+box-shadow:0 5px 10px black;
+
+
+}
+.country{
+    width: 27%;
+    display: inline-block;
+    text-align:center ;
+    border-radius: 10px;
+    margin: 10px;
+    background-size: cover;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.651);
+}
+.factory{
+    text-align: center;
+}
+.factory h5{
+    color: whitesmoke;
+    font-family:'Roboto', sans-serif ;
+}
+.country h4{
+    color: white;
+    font-size: 20px;
+    font-family:'Roboto', sans-serif ;
+}
+.country ul{
+    background-color: rgba(255, 255, 255, 0.555);
+    list-style: none;
+    font-family:'Roboto', sans-serif ;
+    line-height: 30px;
+    backdrop-filter: blur(10px);
+}
+.human{
+    width: 27%;
+    display: inline-block;
+    box-shadow: 0 5px 10px black;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px;
+    font-family:'Roboto', sans-serif ;
+color: aliceblue;
+}
+.team{
+    text-align: center;
+}
+.human img{
+    height: 100px;
+    object-fit: cover;
+}
+.human p{
+    text-align: left;
+}
+.human a{
+    text-decoration: none;
+    color: black;
+    background-color:wheat ;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 7px;
+    display: inline-block;
+}
+form {
+    
+    text-align: center;
+}
+input {
+   display: block; 
+   text-align: center;
+   margin:auto;
+   width: 90%;
+   max-width: 400px;
+margin-bottom:10px ;
+line-height: 40px;
+outline: none;
+border-radius: 3px;
+border: none;
+
+}
+textarea{
+    display: block;
+    margin: auto;
+    width: 90%;
+    max-width: 400px;
+    outline:none ;
+    padding: 5px;
+    /* чтобы пэдинг не раздувал тэкстэрию */
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-family:'Roboto', sans-serif ;
+    margin-bottom: 5px;
+}
+.feedback p{
+    text-align: center;
+    color: brown;
+    font-family:'Roboto', sans-serif ;
+}
+button{
+    padding: 15px;
+    border-radius: 5px;
+    margin: 5px;
+    font-family:'Roboto', sans-serif ;
+    border: none;
+    background-color: white;
+    margin-bottom: 100px;
+}
+button:hover{
+    background-color: blueviolet;
+    color: white;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+@media (max-width:600px){
+    .banner h2{
+        font-size: 30px;
+        padding-top: 30px;
+    }
+    .banner p{
+
+        width: 90%;
+    }
+    .country{
+        display: block;
+        width: 90%;
+    }
+    .aboutUs img{
+        display: block;
+        width: 90%;
+    }
+    .info{
+        width: 90%;
+    }
+    .human{
+        width: 90%;
+        display: block;
+    }
+    .human img{
+        height: 150px;
+        width: 60%;
+    }
 }
